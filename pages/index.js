@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
 import { Api } from '../src/Api';
+import Header from '../Components/Header/Header';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
         <meta name="description" content="PneuStore -O pneu ideal para o seu Veículo e moto" />
         <link rel="icon" href="/favicon.ico" />  
       </Head>
-
+      <Header></Header>
       
 
 
